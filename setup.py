@@ -1,12 +1,12 @@
 from setuptools import setup
 
-setup(name='python_package_template',
+setup(name='pgms',
       version='0.1',
-      description='A template for python packages',
-      author='<insert name>',
-      author_email='<insert email>',
+      description='A probabilisitc graphical model library',
+      author='blake wulfe',
+      author_email='blake.w.wulfe@gmail.com',
       license='MIT',
-      packages=['python_package_template'],
+      packages=['pgms'],
       zip_safe=False,
       install_requires=[
         'numpy',
